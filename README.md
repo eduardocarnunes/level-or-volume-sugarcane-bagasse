@@ -1,6 +1,6 @@
 # Determination of the Level or Volume of Sugarcane Bagasse using Image Processing
 
-#### Viewfinder
+#### Visor
 ![alt text](https://github.com/eduardocarnunes/level-or-volume-sugarcane-bagasse/blob/master/visor.jpeg)
 
 #### Camera installed
