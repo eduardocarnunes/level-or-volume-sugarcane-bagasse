@@ -1,6 +1,7 @@
 # Autor: Eduardo Carvalho Nunes
 # email: eduardocarvalho-1992@hotmail.com
 # Material level of sugarcane bagasse
+# create feb 2018
 
 from datetime import datetime
 import numpy as np
@@ -14,7 +15,8 @@ frame = cv2.resize(frame, (680,382))
 # BGR to GRAY
 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 # hough transform for circle detection
-circles = cv2.HoughCircles(frame, cv2.HOUGH_GRADIENT, 1, frame.shape[0]/8, param1=100, param2=50, minRadius=0, maxRadius=0)
+circles = cv2.HoughCircles(frame, cv2.HOUGH_GRADIENT, 1, frame.shape[0]/8, 
+                           param1=100, param2=50, minRadius=0, maxRadius=0)
 # circles detect
 circles = np.uint16(np.around(circles))
 # center of visor circle
