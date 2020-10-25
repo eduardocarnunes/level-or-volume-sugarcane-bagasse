@@ -1,5 +1,31 @@
 # Determination of the Level or Volume of Sugarcane Bagasse using Image Processing
 
+## :books: Libraries (requirements.txt)
+- certifi==2020.6.20
+- numpy==1.19.2
+- opencv-contrib-python==4.4.0.44
+- opencv-python==4.4.0.44
+- wincertstore==0.2
+
+Install the libraries needed for this work:
+
+        { pip install -r requirements.txt }        
+
+## :heavy_check_mark: Run First Steps
+
+#### 1. Clone repository
+Clone this repository from Github. 
+
+#### 2. Detect level
+##### 2.1 Command to detect coins Brazilian Real:
+        { python main.py }
+
+##### 2.2 Command to detect coins Dollar:
+        { python main.py -o dollar }
+
+#### 3. Result images above
+
+
 #### Visor
 ![alt text](https://github.com/eduardocarnunes/level-or-volume-sugarcane-bagasse/blob/master/images/visor.jpeg)
 
